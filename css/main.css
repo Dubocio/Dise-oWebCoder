@@ -509,3 +509,54 @@ section {
   text-align: center;
   justify-content: space-between;
 }
+
+.banner div h2 {
+  margin: 100px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.box1 {
+  opacity: 0.8;
+}
+.box2 {
+  opacity: 0.8;
+}
+.box3 {
+  opacity: 0.8;
+}
+.box4 {
+  opacity: 0.8;
+}
+.box5 {
+  opacity: 0.8;
+}
+
+.box1:hover {
+  opacity: 1;
+}
+.box2:hover {
+  opacity: 1;
+}
+.box3:hover {
+  opacity: 1;
+}
+.box4:hover {
+  opacity: 1;
+}
+.box5:hover {
+  opacity: 1;
+}
