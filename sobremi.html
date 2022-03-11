@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="css/images/DuboCorp Logo.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <title>Sobre Mi</title>
+</head>
+<body>
+    <header> 
+        <a href="#" class="logo">Dubocio.</a>
+           <div class="menuToggle" onclick="toggleMenu();"></div>
+          <ul class="navigation">
+            <li><a href="index.html" onclick="toggleMenu();">Inicio</a></li>
+            <li><a href="sobremi.html" onclick="toggleMenu();">Sobre Mi</a></li>
+            <li><a href="contactame.html" onclick="toggleMenu();">Contactame</a></li>
+          </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+           <h2>Los sueños estan para cumplirse.</h2>
+        </div>
+     </section>
+    <section class="about" id="about">
+        <div class="row">
+          <div class="col50">
+            <h2 class="titleText">Sobre <span>M</span>i.</h2>
+            <p class="aboutus">Marcio Dubokovic alias, Dubocio nacido el 7 de julio de 1993, oriundo de zona oeste, buenos aires, Argentina. Dj y Productor desde 2012, logro publicar tracks a travez de varios sellos discograficos como Karia Records, Oxitech Planet, Groove Records, Sonic Bass records entre otros. Co-Creador del ciclo "El Laboratorio", Compartio cabina djs y productores de distintos generos lo cual le dejo enriquecedoras experiencias para generarle una impronta a las mezclas que realiza en sus sets. Dentro de sus mezclas vas a poder escuchar estilos variados que llevan lo mejor del House y del Techno. Amante del live y la magia del mismo actualmente reproduce sus mezclas con un Traktor bundle X1 F1 Z1 y para agregarle un estilo propio un Pioneer RMX500. Sino tambien acostumbra a tocar con un clasico sistema de cdj como por ejemplo 3x Pioneer CDJ 2000nxs2 y un Pioneer DJM900nsx pero lo que nunca puede faltar es el RMX para seguir con la magia. </p>
+          </div>
+          <div class="col50">
+             <div class="imgBx">
+               <img src="css/images/lab.jpg"/>
+             </div>
+          </div>
+        </div>      
+      </section>
+      <footer class="footer">
+        <a href="https://www.instagram.com/dubocio/">Instagram</a>
+        <img class="insta" src="css/images/instaico.png" alt="" height="12px"> 
+        <a href="https://www.youtube.com/channel/UCUB0G70DMrtTff4LZXjl1lw">Youtube</a>
+        <img class="youtube" src="css/images/YouTube_23392.png" alt="" height="14px">
+        <a href="index.html">Volver a Inicio</a>
+        <img class="inicio" src="css/images/Login-icon.png" alt="" height="12px">
+        <br>
+
+
+        <h5>&copy; Power by Marcio Dubokovic &rAarr;  Todos los derechos reservados</h5>
+    </footer>
+    
+    
+    <script type="text/javascript">
+       window.addEventListener('scroll', function(){
+       
+       const header = document.querySelector('header');
+       header.classList.toggle("sticky", window.scrollY > 0);
+       
+       });
+       
+       function toggleMenu() {
+       
+       const menuToggle = document.querySelector('.menuToggle');
+       const navigation = document.querySelector('.navigation');
+       menuToggle.classList.toggle('active');
+       navigation.classList.toggle('active'); 
+       
+       }
+    </script>
+</body>
+</html>

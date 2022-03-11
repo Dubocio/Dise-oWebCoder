@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="css/images/DuboCorp Logo.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <a href="#" class="logo">Dubocio.</a>
+           <div class="menuToggle" onclick="toggleMenu();"></div>
+          <ul class="navigation">
+            <li><a href="index.html" onclick="toggleMenu();">Inicio</a></li>
+            <li><a href="sobremi.html" onclick="toggleMenu();">Sobre Mi</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contactame</a></li>
+          </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+           <h2>Nunca dejes de festejar.</h2>
+        </div>
+    </section>
+</body>
+<section class="contact" id="contact">
+    <div class="title">
+       <h2 class="titleText"><span>C</span>ontacto</h2>
+      <p>Eventos, Boliches, Privados... </p>
+    </div>
+    <div class="contactForm">
+      <h3>Enviame un mensaje:</h3>
+      <div class="inputBox">
+        <input type="text" placeholder="Name"/>
+      </div>
+      <div class="inputBox">
+        <input type="text" placeholder="Email"/>
+      </div>
+      <div class="inputBox">
+        <textarea placeholder="Mensaje"></textarea>
+      </div>
+      <div class="inputBox">
+        <input type="submit" value="Send"/>
+      </div>
+    </div>
+</section>
+<footer class="footer">
+    <a href="https://www.instagram.com/dubocio/">Instagram</a>
+    <img class="insta" src="css/images/instaico.png" alt="" height="12px"> 
+    <a href="https://www.youtube.com/channel/UCUB0G70DMrtTff4LZXjl1lw">Youtube</a>
+    <img class="youtube" src="css/images/YouTube_23392.png" alt="" height="14px">
+    <a href="index.html">Volver a Inicio</a>
+    <img class="inicio" src="css/images/Login-icon.png" alt="" height="12px">
+    <br>
+    <h5>&copy; Power by Marcio Dubokovic &rAarr;  Todos los derechos reservados</h5>
+</footer>
+
+
+<script type="text/javascript">
+   window.addEventListener('scroll', function(){
+   
+   const header = document.querySelector('header');
+   header.classList.toggle("sticky", window.scrollY > 0);
+   
+   });
+   
+   function toggleMenu() {
+   
+   const menuToggle = document.querySelector('.menuToggle');
+   const navigation = document.querySelector('.navigation');
+   menuToggle.classList.toggle('active');
+   navigation.classList.toggle('active'); 
+   
+   }
+</script>
+</html>
