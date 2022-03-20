@@ -502,14 +502,6 @@ section {
   }
 }
 
-.footer {
-  margin: 10px;
-  padding: 3px;
-  background-color: rgba(102, 102, 102, 0.301);
-  text-align: center;
-  justify-content: space-between;
-}
-
 .banner div h2 {
   margin: 100px;
   animation-duration: 2s;
@@ -559,4 +551,12 @@ section {
 }
 .box5:hover {
   opacity: 1;
+}
+
+.footer {
+  margin: 10px;
+  padding: 3px;
+  background: url(./images/footer.jpg);
+  text-align: center;
+  justify-content: space-between;
 }
