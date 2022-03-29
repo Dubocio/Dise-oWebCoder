@@ -7,28 +7,6 @@
   text-align: center;
   justify-content: space-between; }
 
-.banner {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  background: url(images/fiesta.jpg);
-  background-size: cover; }
-
-.banner .content {
-  max-width: 900px;
-  text-align: center; }
-
-.banner .content h2 {
-  font-size: 5em;
-  color: #fff; }
-
-.banner .content p {
-  font-size: 1.2em;
-  color: #fff; }
-
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -147,7 +125,7 @@ section {
   width: 48%; }
 
 .titleText {
-  color: #555;
+  color: #111;
   font-size: 2.7em;
   font-weight: 300; }
 
@@ -190,7 +168,7 @@ section {
   gap: 10px; }
 
 .banner .content h2 {
-  text-shadow: 6px 20px 10px #111; }
+  text-shadow: 6px 20px 10px black; }
 
 .aboutus {
   font-size: 1.1em; }
@@ -303,7 +281,7 @@ section {
   text-align: center; }
 
 .testimonials .content .box .text p {
-  color: #777;
+  color: #585858;
   font-style: italic; }
 
 .testimonials .content .box .text h3 {
@@ -312,6 +290,9 @@ section {
   font-size: 1em;
   color: #070c02;
   font-weight: 600; }
+
+.testimonials div h2 {
+  color: #fff; }
 
 .contact {
   background: url(./images/fiesta4.jpg);
@@ -379,7 +360,7 @@ section {
 
 .copyrightText .navigation li a {
   text-decoration: none;
-  color: #4d4c4c;
+  color: #0f0f0f;
   font-weight: 400;
   font-size: 1.2em; }
 
@@ -443,7 +424,7 @@ section {
   .title {
     text-align: center; }
   .titleText {
-    color: #e4dede;
+    color: #444444;
     font-size: 1.8em;
     line-height: 1.5em;
     margin-bottom: 15px;
@@ -461,7 +442,7 @@ section {
 @media (max-width: 480px) {
   .banner .content h2 {
     font-size: 2.2em;
-    color: #fff; } }
+    color: #111; } }
 
 .banner div h2 {
   margin: 100px;

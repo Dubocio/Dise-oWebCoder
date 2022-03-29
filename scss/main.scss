@@ -2,7 +2,6 @@
 
 @import "variables";
 @import "footer";
-@import "banner";
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
 * {
@@ -186,7 +185,7 @@ section {
   width: 48%;
 }
 .titleText {
-  color: #555;
+  color: $negro;
   font-size: 2.7em;
   font-weight: 300;
 }
@@ -247,7 +246,7 @@ section {
 .banner {
   .content {
     h2 {
-      text-shadow: 6px 20px 10px $negro;
+      text-shadow: 6px 20px 10px black;
     }
   }
 }
@@ -474,7 +473,7 @@ section {
     .box {
       .text {
         p {
-          color: #777;
+          color: rgb(88, 88, 88);
           font-style: italic;
         }
       }
@@ -493,6 +492,13 @@ section {
           font-weight: 600;
         }
       }
+    }
+  }
+}
+.testimonials {
+  div {
+    h2 {
+      color: $blanco;
     }
   }
 }
@@ -598,7 +604,7 @@ section {
     li {
       a {
         text-decoration: none;
-        color: rgb(77, 76, 76);
+        color: rgb(15, 15, 15);
         font-weight: 400;
         font-size: 1.2em;
       }
@@ -730,7 +736,7 @@ section {
   }
 
   .titleText {
-    color: rgb(228, 222, 222);
+    color: rgb(68, 68, 68);
     font-size: 1.8em;
     line-height: 1.5em;
     margin-bottom: 15px;
@@ -758,7 +764,7 @@ section {
     .content {
       h2 {
         font-size: 2.2em;
-        color: $blanco;
+        color: $negro;
       }
     }
   }
